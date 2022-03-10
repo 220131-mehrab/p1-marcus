@@ -5,13 +5,14 @@
     <title>Home Page</title>
     <link rel="stylesheet" href="main.css">
 </head>
-<body>
+<body class="scroller">
 <h1>Classic Cars</h1>
 <form action="/cars" method="post" onsubmit="postCar()">
     Id: <input type="number" name="carId"/>
     Name: <input type="text" name="name" id="name"/>
     <button type="button" onclick="postCar()">Add Car</button>
 </form>
+
 <div id="cars"></div>
 <script src="main.js"></script>
 </body>

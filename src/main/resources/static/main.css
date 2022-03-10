@@ -1,4 +1,13 @@
 body {
     background-image: url('impala.png');
-    background-color: aqua;
+}
+
+
+.scroller {
+  width: 300px;
+  height: 100px;
+  overflow-y: scroll;
+  scrollbar-color: grey;
+  scrollbar-width: thin;
+  position: fixed;
 }
